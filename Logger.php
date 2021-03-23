@@ -1,8 +1,11 @@
 <?php
 namespace Php\Exam;
 
-class Logger
-{
-
+class Logger implements LoggerInterface{
+    
+    function info(){
+        echo '123';
+    }
+    
 }
 ?>

@@ -1,6 +1,9 @@
 <?php
 namespace Php\Exam;
-interface LoggerInterface {
-    public function index();
+
+interface LoggerInterface{
+
+    public function info();
+    
 }
 ?>
