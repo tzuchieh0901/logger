@@ -6,5 +6,9 @@
             "email": "red197007145@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+
 }
